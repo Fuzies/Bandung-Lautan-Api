@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/spear sound1.1.mp3-a0ed501ea5b3b97581390aaa5f9c1aad.mp3str"
+
+[deps]
+
+source_file="res://Sound/Player/spear sound1.1.mp3"
+dest_files=[ "res://.import/spear sound1.1.mp3-a0ed501ea5b3b97581390aaa5f9c1aad.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,5 @@
+[
+	{"name": "Nawawi Alief", "text": "Hei teman seperjuangan, kita membutuhkan kekuatan tempur!.","pos" : 1},
+	{"name": "Nawawi Alief", "text": "Tolong kau urus 5 orang prajurit jepang yang berpatroli aku akan mengurus sisanya.","pos" : 1},
+	{"name": "Player", "text": "Siap Komandan!.","pos" : 2},
+]

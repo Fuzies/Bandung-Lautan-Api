@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/beep.mp3-f271fbdf092a0c298c94902917d575f6.mp3str"
+
+[deps]
+
+source_file="res://Sound/Dialogue/beep.mp3"
+dest_files=[ "res://.import/beep.mp3-f271fbdf092a0c298c94902917d575f6.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

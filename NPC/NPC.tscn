@@ -1,0 +1,79 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://NPC/NPC1.png" type="Texture" id=1]
+[ext_resource path="res://Enemy/PlayerDetectionZone.tscn" type="PackedScene" id=2]
+[ext_resource path="res://NPC/NPC.gd" type="Script" id=3]
+[ext_resource path="res://Hitbox dan Hurtbox/HurtBoxInterract.tscn" type="PackedScene" id=4]
+[ext_resource path="res://UI/Dialogue.tscn" type="PackedScene" id=6]
+[ext_resource path="res://UI/Gamer.ttf" type="DynamicFontData" id=7]
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 1 )
+region = Rect2( 64, 0, 64, 64 )
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ) ],
+"loop": true,
+"name": "default",
+"speed": 1.0
+} ]
+
+[sub_resource type="CircleShape2D" id=4]
+radius = 8.0
+
+[sub_resource type="CircleShape2D" id=5]
+radius = 32.0
+
+[sub_resource type="CircleShape2D" id=6]
+radius = 15.0
+
+[sub_resource type="DynamicFont" id=7]
+size = 11
+font_data = ExtResource( 7 )
+
+[node name="NPC" type="KinematicBody2D"]
+script = ExtResource( 3 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 3 )
+frame = 1
+playing = true
+offset = Vector2( 0, -20 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 4 )
+
+[node name="PlayerDetectionZone" parent="." instance=ExtResource( 2 )]
+
+[node name="CollisionShape2D" parent="PlayerDetectionZone" index="0"]
+shape = SubResource( 5 )
+
+[node name="HurtBoxInterract" parent="." instance=ExtResource( 4 )]
+
+[node name="CollisionShape2D" parent="HurtBoxInterract" index="0"]
+shape = SubResource( 6 )
+
+[node name="Dialogue" parent="." instance=ExtResource( 6 )]
+layer = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+visible = false
+margin_left = -49.0
+margin_top = -53.0
+margin_right = 49.0
+margin_bottom = -42.0
+custom_fonts/normal_font = SubResource( 7 )
+text = "Tekan X untuk berbicara."
+fit_content_height = true
+
+[connection signal="body_entered" from="PlayerDetectionZone" to="." method="_on_PlayerDetectionZone_body_entered"]
+[connection signal="body_exited" from="PlayerDetectionZone" to="." method="_on_PlayerDetectionZone_body_exited"]
+[connection signal="area_entered" from="HurtBoxInterract" to="." method="_on_HurtBoxInterract_area_entered"]
+
+[editable path="PlayerDetectionZone"]
+[editable path="HurtBoxInterract"]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Ally_BGM_VisualNovel.mp3-4c9abc3d030f2b885bd22b7e5867206a.mp3str"
+
+[deps]
+
+source_file="res://UI/VisualNovel/Ally_BGM_VisualNovel.mp3"
+dest_files=[ "res://.import/Ally_BGM_VisualNovel.mp3-4c9abc3d030f2b885bd22b7e5867206a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

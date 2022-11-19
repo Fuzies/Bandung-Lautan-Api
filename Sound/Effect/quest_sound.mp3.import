@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/quest_sound.mp3-7d1d0020011dc3cca8bf5ffbabd54723.mp3str"
+
+[deps]
+
+source_file="res://Sound/Effect/quest_sound.mp3"
+dest_files=[ "res://.import/quest_sound.mp3-7d1d0020011dc3cca8bf5ffbabd54723.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

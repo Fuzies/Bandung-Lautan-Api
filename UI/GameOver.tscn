@@ -1,0 +1,70 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://UI/Gamer.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://UI/GameOver.gd" type="Script" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=4]
+font_data = ExtResource( 1 )
+
+[node name="GameOver" type="Control"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0.478431 )
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+margin_left = 31.0
+margin_top = 44.0
+margin_right = 288.0
+margin_bottom = 136.0
+
+[node name="Pesan1" type="Label" parent="CenterContainer/VBoxContainer"]
+margin_right = 257.0
+margin_bottom = 13.0
+custom_fonts/font = SubResource( 1 )
+text = "Kamu telah dikalahkan musuh . . ."
+align = 1
+
+[node name="Pesan2" type="Label" parent="CenterContainer/VBoxContainer"]
+margin_top = 17.0
+margin_right = 257.0
+margin_bottom = 46.0
+custom_fonts/font = SubResource( 2 )
+text = "Penjajah terus menyerang rekanmu, 
+tapi kamu tidak berniat untuk menyerah bukan?"
+align = 1
+
+[node name="Restart" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 50.0
+margin_right = 257.0
+margin_bottom = 69.0
+custom_fonts/font = SubResource( 3 )
+text = "Ulangi Perjuangan!"
+
+[node name="Quit" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 73.0
+margin_right = 257.0
+margin_bottom = 92.0
+custom_fonts/font = SubResource( 4 )
+text = "Menyerah (keluar)"
+
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Restart" to="." method="_on_Restart_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Quit" to="." method="_on_Quit_pressed"]

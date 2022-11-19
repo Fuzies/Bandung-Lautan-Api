@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://UI/Item/Item.gd" type="Script" id=1]
+[ext_resource path="res://UI/Item/CincinKuning.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+name = "CincinKuning"
+type = "Accessory"
+texture = ExtResource( 2 )
+max_amount = 1
+attack = 7
+hp_bonus = 3
+heal = 0

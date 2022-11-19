@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://UI/Gamer.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Enemy/PlayerDetectionZone.tscn" type="PackedScene" id=2]
+[ext_resource path="res://World/Pintu1.png" type="Texture" id=3]
+[ext_resource path="res://Pintu1.gd" type="Script" id=4]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 77.0065
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 1 )
+
+[node name="Pintu1" type="KinematicBody2D"]
+collision_mask = 0
+script = ExtResource( 4 )
+
+[node name="PlayerDetectionZone" parent="." instance=ExtResource( 2 )]
+
+[node name="CollisionShape2D" parent="PlayerDetectionZone" index="0"]
+position = Vector2( -1, -15 )
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 0, -54 )
+texture = ExtResource( 3 )
+
+[node name="Node2D" type="Node2D" parent="Sprite"]
+position = Vector2( -8, -20 )
+rotation = -0.383972
+z_index = 1
+
+[node name="Label" type="Label" parent="Sprite/Node2D"]
+margin_left = -96.0
+margin_top = -8.0
+margin_right = 94.0
+margin_bottom = 5.0
+custom_fonts/font = SubResource( 2 )
+text = "Menuju :"
+align = 1
+
+[connection signal="body_entered" from="PlayerDetectionZone" to="." method="_on_PlayerDetectionZone_body_entered"]
+[connection signal="body_exited" from="PlayerDetectionZone" to="." method="_on_PlayerDetectionZone_body_exited"]
+
+[editable path="PlayerDetectionZone"]

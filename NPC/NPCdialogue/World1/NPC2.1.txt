@@ -1,0 +1,5 @@
+[
+	{"name": "Nawawi Alief", "text": "Apakah kamu sudah mengalahkan 5 orang prajurit jepang?.","pos" : 1},
+	{"name": "Player", "text": "Masih belum.","pos" : 2},
+	{"name": "Nawawi Alief", "text": "Ayo berjuang kalahkan musuh!.","pos" : 1},
+]

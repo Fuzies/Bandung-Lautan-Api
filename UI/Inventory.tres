@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=12 format=2]
+
+[ext_resource path="res://UI/Inventory.gd" type="Script" id=1]
+[ext_resource path="res://UI/Item/PangsiSarungCelana.tres" type="Resource" id=2]
+[ext_resource path="res://UI/Item/Golok.tres" type="Resource" id=3]
+[ext_resource path="res://UI/Item/CincinMerahEmas.tres" type="Resource" id=4]
+[ext_resource path="res://UI/Item/SepatuHitam.tres" type="Resource" id=5]
+[ext_resource path="res://UI/Item/Stroberi.tres" type="Resource" id=6]
+[ext_resource path="res://UI/Item/CincinBiruEmas.tres" type="Resource" id=7]
+[ext_resource path="res://UI/Item/PangsiSarung.tres" type="Resource" id=8]
+[ext_resource path="res://UI/Item/PangsiSarungTotopong.tres" type="Resource" id=9]
+[ext_resource path="res://UI/Item/TasRotan.tres" type="Resource" id=10]
+[ext_resource path="res://UI/Item/TasPeluru.tres" type="Resource" id=11]
+
+[resource]
+script = ExtResource( 1 )
+items = [ null, null, null, ExtResource( 5 ), ExtResource( 3 ), null, null, null, ExtResource( 2 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 6 ), null, null, ExtResource( 9 ), ExtResource( 10 ), ExtResource( 7 ), ExtResource( 4 ), null, null, null, null, null, ExtResource( 11 ) ]

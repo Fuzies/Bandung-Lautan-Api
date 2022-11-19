@@ -1,0 +1,56 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://UI/MenuButton1.png" type="Texture" id=1]
+[ext_resource path="res://UI/PauseButton.gd" type="Script" id=2]
+[ext_resource path="res://UI/MenuButton2.png" type="Texture" id=3]
+[ext_resource path="res://Player/Healthbar/Healthbar.tscn" type="PackedScene" id=4]
+[ext_resource path="res://UI/Gamer.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://UI/bulletIcon.png" type="Texture" id=6]
+[ext_resource path="res://UI/ProcessButtons.gd" type="Script" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 5 )
+
+[node name="ProcessButtons" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 7 )
+
+[node name="PauseButton" type="TouchScreenButton" parent="."]
+position = Vector2( 285, 3 )
+normal = ExtResource( 1 )
+pressed = ExtResource( 3 )
+passby_press = true
+action = "pause"
+script = ExtResource( 2 )
+
+[node name="Healthbar" parent="." instance=ExtResource( 4 )]
+margin_left = 4.0
+margin_top = 4.0
+margin_right = 4.0
+margin_bottom = 4.0
+
+[node name="BulletIcon" type="Sprite" parent="."]
+position = Vector2( 280, 11 )
+texture = ExtResource( 6 )
+
+[node name="Ammo" type="Label" parent="."]
+margin_left = 235.0
+margin_top = 4.0
+margin_right = 275.0
+margin_bottom = 18.0
+custom_fonts/font = SubResource( 1 )
+text = "99"
+align = 2
+
+[node name="LabelLokasi" type="Label" parent="."]
+margin_left = 137.0
+margin_top = 5.0
+margin_right = 259.0
+margin_bottom = 19.0
+custom_fonts/font = SubResource( 2 )
+text = "Label Lokasi"
+align = 1

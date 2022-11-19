@@ -1,0 +1,13 @@
+[
+	{"name": "Tanggal", "text": "10 September 1945","pos" : 1},
+	{"name": "Komandan Jepang", "text": "Kami menyerah!, tolong hentikan serangan kalian ke negara kami. Kami sudah lelah dengan peperangan dan akan melepaskan indonesia sepenuhnya karena mereka sudah merdeka.", "pos" : 1},
+	{"name": "Komandan Amerika", "text": "Kalian telah kalah perang. Sekarang berikan kekuasaan pemerintah kepada kami !, dengan begitu kami akan menerima pernyataan menyerah kalian.", "pos" : 2},
+	{"name": "Komandan Jepang", "text": "Tetapi indonesia telah melakukan proklamasi kemerdekaan, kami tidak punya pemerintahan atas indonesia lagi.", "pos" : 1},
+	{"name": "Komandan Amerika", "text": "Cukup Bicaramu!. Jika kalian tidak ingin memberikan kekuasaan tersebut maka kami tidak akan segan meledakan bom nuklir ke-3 !", "pos" : 2},
+	{"name": "Komandan Jepang", "text": "Ugh, baiklah", "pos" : 1},
+	{"name": "Komandan Jepang", "text": "Akan kami beritahukan terlebih dahulu masyarakat indonesia supaya tunduk pada Amerika.", "pos" : 1},
+	{"name": "Komandan Amerika", "text": "Bagus, setelah kalian selesai maka pasukan kami akan kami kerahkan.", "pos" : 2},
+	{"name": "Komandan Amerika", "text": "Jangan coba berbuat hal aneh, kau tau konsekuensinya.", "pos" : 2},
+	{"name": "Komandan Amerika", "text": "*Komandan Sekutu Pergi*", "pos" : 2},
+	{"name": "Komandan Jepang", "text": "Ah Sial!, tidak ada pilihan lain selain memberikan pemerintahaan Indonesia ke Amerika.", "pos" : 1}
+]

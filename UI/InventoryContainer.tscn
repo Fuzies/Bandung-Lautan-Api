@@ -1,0 +1,53 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://UI/InventoryDisplay.tscn" type="PackedScene" id=1]
+[ext_resource path="res://UI/InventoryContainer.gd" type="Script" id=2]
+[ext_resource path="res://UI/Gamer.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 3 )
+
+[node name="InventoryContainer" type="ColorRect"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0 )
+script = ExtResource( 2 )
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+
+[node name="InventoryDisplay" parent="CenterContainer" instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 64.0
+margin_top = 26.0
+margin_right = 256.0
+margin_bottom = 154.0
+
+[node name="StatsLabelHP" type="Label" parent="."]
+margin_left = 67.0
+margin_top = 154.0
+margin_right = 163.0
+margin_bottom = 168.0
+custom_colors/font_color = Color( 0.14902, 1, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Nyawa : ERROR"
+
+[node name="StatsLabelAttack" type="Label" parent="."]
+margin_left = 164.0
+margin_top = 154.0
+margin_right = 259.0
+margin_bottom = 168.0
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Serangan : ERROR"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+volume_db = -10.0
+autoplay = true

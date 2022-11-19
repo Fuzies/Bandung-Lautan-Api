@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://UI/Item/Item.gd" type="Script" id=1]
+[ext_resource path="res://UI/Item/Golok.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+name = "Golok"
+type = "Weapon"
+texture = ExtResource( 2 )
+max_amount = 1
+attack = 2
+hp_bonus = 1
+heal = 0

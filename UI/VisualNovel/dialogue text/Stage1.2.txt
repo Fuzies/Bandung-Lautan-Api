@@ -1,0 +1,10 @@
+[
+	{"name": "Tanggal", "text": "27 September 1945","pos" : 1},
+	{"name": "Sutoko", "text": "Alief kamu sudah dengar mengenai pemerintahan yang akan dialihkan kepada Amerika?.","pos" : 1},
+	{"name": "Nawawi Alief", "text": "Ya, kita tidak bisa tinggal diam, Indonesia seutuhnya di tangan rakyatnya kita harus berjuang!.","pos" : 2},
+	{"name": "Sutoko", "text": "kalau begitu ayo kita serang kantor PTT!.","pos" : 1},
+	{"name": "Pemuda 1", "text": "Tapi bagaimana kita mengalahkan mereka?.","pos" : 2},
+	{"name": "Nawawi Alief", "text": "Kita gunakan bambu runcing!, dengan tekad kita yang membara mereka akan kalah!","pos" : 2},
+	{"name": "Sutoko", "text": "Ayo Maju.","pos" : 1},
+	{"name": "Pemuda 2", "text": "Ayo!!.","pos" : 1},
+]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Enemy_BGM_VisualNovel.mp3-af68f7bcbc70fba0c7f1a5b6979526ac.mp3str"
+
+[deps]
+
+source_file="res://UI/VisualNovel/Enemy_BGM_VisualNovel.mp3"
+dest_files=[ "res://.import/Enemy_BGM_VisualNovel.mp3-af68f7bcbc70fba0c7f1a5b6979526ac.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

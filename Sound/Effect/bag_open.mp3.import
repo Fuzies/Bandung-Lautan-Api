@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bag_open.mp3-265ac579b5e77b45cdb1f67e9d17b438.mp3str"
+
+[deps]
+
+source_file="res://Sound/Effect/bag_open.mp3"
+dest_files=[ "res://.import/bag_open.mp3-265ac579b5e77b45cdb1f67e9d17b438.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
