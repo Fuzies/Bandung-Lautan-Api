@@ -38,3 +38,8 @@ func make_items_unique():
 		else:
 			unique_items.append(null)
 	items = unique_items
+
+func set_loaded_inventory(loadinventory):
+	items = loadinventory
+	for i in items.size():
+		emit_signal("items_changed", i)

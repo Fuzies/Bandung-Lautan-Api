@@ -9,6 +9,6 @@ name = "Bambu_Tua"
 type = "Weapon"
 texture = ExtResource( 2 )
 max_amount = 1
-attack = 1
+attack = 5
 hp_bonus = 0
 heal = 0

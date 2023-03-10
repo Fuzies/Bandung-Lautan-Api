@@ -1,0 +1,5 @@
+[
+	{"name": "Ir. Djuanda", "text": "Apakah pemimpin mereka telah tumbang?","pos" : 1},
+	{"name": "Kamu", "text": "Masih belum.","pos" : 2},
+	{"name": "Ir. Djuanda", "text": "Ayo terus berjuang!","pos" : 1},
+]

@@ -1,0 +1,5 @@
+[
+	{"name": "Ir. Djuanda", "text": "Hei Apa kabar kawan!","pos" : 1},
+	{"name": "Kamu", "text": "Baik","pos" : 2},
+	{"name": "Ir. Djuanda", "text": "kami berhutang budi padamu.","pos" : 1},
+]

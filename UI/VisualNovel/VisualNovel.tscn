@@ -4,7 +4,7 @@
 [ext_resource path="res://UI/VisualNovel/ColorRect.gd" type="Script" id=2]
 [ext_resource path="res://UI/VisualNovel/VisualNovel.gd" type="Script" id=5]
 
-[node name="VisualNovel" type="Node2D"]
+[node name="VisualNovel" type="Control"]
 script = ExtResource( 5 )
 
 [node name="VNDialogue" type="Node" parent="."]
@@ -12,10 +12,10 @@ script = ExtResource( 5 )
 [node name="TextureRect" type="TextureRect" parent="."]
 margin_right = 320.0
 margin_bottom = 180.0
+expand = true
 script = ExtResource( 2 )
 
 [node name="Dialogue" parent="." instance=ExtResource( 1 )]
-dialogue_file = ""
 
 [node name="Dialogue2" parent="." instance=ExtResource( 1 )]
 

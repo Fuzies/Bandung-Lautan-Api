@@ -1,0 +1,5 @@
+[
+	{"text": "Quest List \n Kamu dapat melihat quest yang berjalan saat ini dengan menekan tombol buku, quest didapat dari interaksi NPC"},
+	{"text": "Objektif \n quest memiliki objektif yang harus dicapai ketika objektif selesai maka warna teksnya akan berubah hijau"},
+	{"text": "Penyelesaian Quest \n Kamu dapat menyelesaikan quest dengan berinteraksi kepada NPC yang memberimu quest dengan imbalan barang"}
+]

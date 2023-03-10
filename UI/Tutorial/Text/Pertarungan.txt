@@ -1,0 +1,6 @@
+[
+	{"text": "Serang Atas \n Kamu dapat kamu dapat menyerang musuh di atas dengan menekan tombol analog atas dan tombol serang"},
+	{"text": "Serang Bawah \n Kamu dapat kamu dapat menyerang musuh di bawah dengan menekan tombol analog bawah dan tombol serang"},
+	{"text": "Serang Kanan \n Kamu dapat kamu dapat menyerang musuh di kanan dengan menekan tombol analog kanan dan tombol serang"},
+	{"text": "Serang Kiri \n Kamu dapat kamu dapat menyerang musuh di kiri dengan menekan tombol analog kiri dan tombol serang"}
+]

@@ -1,5 +1,5 @@
 [
 	{"name": "Sutoko", "text": "Apakah kamu sudah menemukan 3 Pisang?","pos" : 1},
-	{"name": "Player", "text": "Em, belum masih saya cari.","pos" : 2},
+	{"name": "Kamu", "text": "Em, belum masih saya cari.","pos" : 2},
 	{"name": "Sutoko", "text": "Baiklah, akan kutunggu.","pos" : 1},
 ]

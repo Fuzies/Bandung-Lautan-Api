@@ -33,7 +33,6 @@ radius = 32.0
 radius = 15.0
 
 [sub_resource type="DynamicFont" id=7]
-size = 11
 font_data = ExtResource( 7 )
 
 [node name="NPC" type="KinematicBody2D"]
@@ -61,15 +60,15 @@ shape = SubResource( 6 )
 [node name="Dialogue" parent="." instance=ExtResource( 6 )]
 layer = 2
 
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
+[node name="Label" type="Label" parent="."]
 visible = false
-margin_left = -49.0
-margin_top = -53.0
-margin_right = 49.0
-margin_bottom = -42.0
-custom_fonts/normal_font = SubResource( 7 )
+margin_left = -78.0
+margin_top = -55.0
+margin_right = 78.0
+margin_bottom = -41.0
+custom_fonts/font = SubResource( 7 )
 text = "Tekan X untuk berbicara."
-fit_content_height = true
+align = 1
 
 [connection signal="body_entered" from="PlayerDetectionZone" to="." method="_on_PlayerDetectionZone_body_entered"]
 [connection signal="body_exited" from="PlayerDetectionZone" to="." method="_on_PlayerDetectionZone_body_exited"]

@@ -11,4 +11,4 @@ texture = ExtResource( 2 )
 max_amount = 3
 attack = 0
 hp_bonus = 0
-heal = 30
+heal = 10

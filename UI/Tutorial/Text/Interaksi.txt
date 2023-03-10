@@ -1,0 +1,5 @@
+[
+	{"text": "Tombol Interaksi \n ketika karakter player menghadap NPC kamu dapat berinteraksi dengan menekan tombol interaksi di sebelah kanan"},
+	{"text": "Dialog \n Kamu dapat melanjutkan dialog dengan NPC dengan menekan layar pada saat dialog berjalan hingga akhir"},
+	{"text": "Visual Novel \n Sama seperti saat dialog kamu dapat menekan layar untuk melanjutkan dialog visual novel hingga akhir"},
+]

@@ -3,6 +3,7 @@ extends Node2D
 onready var worldmusic = $AudioStreamPlayer
 onready var player = $YSort/Player
 
+var stage = 1
 var selfnode
 
 export var nama_tempat = "Jalan Cilaki no 73"
@@ -30,3 +31,4 @@ func spawn_player_position():
 	for i in global.location.size():
 		if typeof(global.location[i]) == TYPE_STRING and name == global.location[i]:
 			player.global_position = global.location[i+1]
+

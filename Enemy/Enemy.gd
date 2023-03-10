@@ -53,7 +53,9 @@ func _ready():
 	stats.connect("health_changed",self, "update_health_display")
 	hitbox.damage = attack
 	state = pick_random_state([IDLE, WANDER])
-	statlabel.text = str("HP :",stats.health," ATK : ",stats.base_attack)
+	#statlabel.text = str("HP :",stats.health," ATK : ",stats.base_attack)
+	statlabel.text = str("Nyawa :",stats.health)
+	
 
 func _physics_process(delta):
 	knockback = knockback.move_toward(Vector2.ZERO, FRICTION * delta)
@@ -128,7 +130,7 @@ func _on_Stats_death():
 	if velocity.x <= -1:
 		enemyDeathEffect.scale.x *= -1
 	if itemdrop_name != null and hatdrop_name != null and torsodrop_name != null and pantsdrop_name != null and shoesdrop_name != null:	
-		if dropgracha <= 1000:
+		if dropgracha <= 500:
 			item_name = itemdrop_name
 			if dropgracha <= 100:
 				item_name = hatdrop_name
@@ -144,8 +146,17 @@ func _on_Stats_death():
 			itemdrop.global_position = global_position
 			tweenpos = global_position + Vector2(rand_range(-32,32),rand_range(-32,32))
 			itemdrop.animate_position_tween(tweenpos.x, tweenpos.y, item_name)
-	#get_parent().remove_child(self)
+	if is_enemy_boss != 0:
+		var endingVN = EndingVn
+		if is_enemy_boss == 1:
+			get_parent().get_parent().queue_free()
+			endingVN.stage1bossVNending()
+		if is_enemy_boss == 2:
+			get_parent().get_parent().queue_free()
+			endingVN.stage2bossVNending()
+		print("BOSS DIKALAHKAN")
 	queue_free()
 	
 func update_health_display(health):
-	statlabel.text = str("HP :",health," ATK : ",stats.base_attack)
+	#statlabel.text = str("HP :",health," ATK : ",stats.base_attack)
+	statlabel.text = str("Nyawa :",health)

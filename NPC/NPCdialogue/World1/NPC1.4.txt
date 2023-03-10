@@ -1,4 +1,4 @@
 [
 	{"name": "Sutoko", "text": "Hei, kita ketemu lagi apa kabar?","pos" : 1},
-	{"name": "Player", "text": "Baik","pos" : 2}
+	{"name": "Kamu", "text": "Baik","pos" : 2}
 ]

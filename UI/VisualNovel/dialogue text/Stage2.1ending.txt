@@ -1,0 +1,18 @@
+[
+	{"name": "Tanggal,tempat", "text": "28 September 1945, Balai Besar DKA","pos" : 1},
+	{"name": "Ir. Djuanda", "text": "Huft akhirnya selesai, Balai Besar DKA miliki Indonesia!", "pos" : 1},
+	{"name": "Ir. Djuanda", "text": "Para kawan-kawanku, Terima kasih atas perjuangan kalian dengan begini satu persatu daerah kekuasaan Jepang akan kita rebut!", "pos" : 1},
+	{"name": "Ir. Djuanda", "text": "Setelah Balai Besar DKA ini kita lanjutkan ke Kantor Pertambangan!", "pos" : 1},
+	{"name": "Ir. Djuanda", "text": "Lalu  Kotapraja! lalu Kerisedenan dan objek militer di Gudang Utara!", "pos" : 1},
+	{"name": "Djawatan Pemuda Kereta Api", "text": "Yaaaaaa! untuk Indonesia!", "pos" : 2},
+	{"name": "Ir. Djuanda", "text": "*menoleh kearahm*Terima kasih kawan kamu sangat membantu kami", "pos" : 1},
+	{"name": "Kamu", "text": "Tidak masalah.", "pos" : 2},
+	{"name": "Djawatan Pemuda Kereta Api", "text": "aku harap kita bisa terus berjuang bersama!", "pos" : 1},
+	{"name": "Ir. Djuanda dan Kamu", "text": "*Berjabat Tangan*", "pos" : 1},
+	{"name": "", "text": "*Beberapa hari Kemudian*", "pos" : 1},
+	{"name": "Ir. Djuanda", "text": "Kawan sekalian! Perhatian! Rakyat Indonesia adalah rakyat yang tangguh", "pos" : 1},
+	{"name": "Ir. Djuanda", "text": "Namun.. kita tidak bisa menang hanya dengan menggunakan bambu runcing saja", "pos" : 1},
+	{"name": "Ir. Djuanda", "text": "karena itu kita harus mendapatkan senjata Api, kita akan ambil kekuasaan pada pabrik senjata Algemene Constructie Winkel", "pos" : 1},
+	{"name": "Ir. Djuanda", "text": "Kita akan berkumpul pada jam 12.00 untuk berunding dengan mereka pada 9 Oktober 1945", "pos" : 1},
+	{"name": "Ir. Djuanda", "text": "Begitu saja informasinya ,Bubar!", "pos" : 1},
+]

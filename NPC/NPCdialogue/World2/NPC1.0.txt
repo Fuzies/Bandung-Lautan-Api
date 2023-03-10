@@ -1,0 +1,7 @@
+[
+	{"name": "Ir. Djuanda", "text": "Salam, teman seperjuangan.","pos" : 1},
+	{"name": "Ir. Djuanda", "text": "Saya dengar kamu pasukan paling kuat di penyerangan di PTT, aku ingin minta bantuan","pos" : 1},
+	{"name": "Ir. Djuanda", "text": "Saya akan menjaga pintu masuk gedung ini agar tidak ada musuh masuk, tolong kamu kalahkan pemimpin mereka ","pos" : 1},
+	{"name": "Kamu", "text": "Baik! Mereka akan tumbang","pos" : 2},
+	{"name": "Ir. Djuanda", "text": "Terima Kasih ayo maju!","pos" : 1},
+]

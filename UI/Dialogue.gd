@@ -1,6 +1,6 @@
 extends CanvasLayer
 
-export(String, FILE, "*.json") var dialogue_file
+export(String, FILE, "*.txt") var dialogue_file
 
 var dialogue = []
 var current_dialogue_id = 0
@@ -25,8 +25,11 @@ func _ready():
 	ninePatchRect.visible = false
 	connect("dialoguefinished",self,"stop_beep")
 	connect("text_display_finished",self,"stop_beep")
+	
 
 func play():
+	if dialogue_file == null:
+		$FailLabel.visible = true
 	if is_dialogue_active:
 		#print(is_dialogue_active)
 		return

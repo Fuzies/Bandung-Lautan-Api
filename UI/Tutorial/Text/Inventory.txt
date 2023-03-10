@@ -1,0 +1,7 @@
+[
+	{"text": "Inventory \n Kamu dapat membuka inventory dengan menekan tombol berbentuk tas di sebelah kiri, isi inventory terdapat slot barang, dan equipment"},
+	{"text": "Equipment \n Kamu dapat menggunakan equipment dengan cara menekan dan geser barang yang digunakan ke slot equipment yang ada"},
+	{"text": "Stats \n Menggunakan Equipment dapat meningkatkan nyawa dan serangan player isi stat ditampilkan pada gambar"},
+	{"text": "Buang barang \n Kamu dapat membuang barang dengan memilih barang dan menggesernya keluar inventory"},
+	{"text": "Konsumsi \n beberapa barang digunakan untuk dikonsumsi, konsumsi dapat dilakukan dengan menggerser barang ke slot yang sama"}
+]

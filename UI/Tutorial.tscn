@@ -1,0 +1,191 @@
+[gd_scene load_steps=20 format=2]
+
+[ext_resource path="res://UI/Gamer.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://UI/Tutorial.gd" type="Script" id=2]
+[ext_resource path="res://UI/tutorialBG.png" type="Texture" id=3]
+[ext_resource path="res://UI/MenuButton2.png" type="Texture" id=4]
+[ext_resource path="res://UI/MenuButton1.png" type="Texture" id=5]
+[ext_resource path="res://UI/Tutorial/PahamButton1.png" type="Texture" id=6]
+[ext_resource path="res://UI/Tutorial/KembaliButton1.png" type="Texture" id=7]
+[ext_resource path="res://UI/Tutorial/KembaliButton2.png" type="Texture" id=8]
+[ext_resource path="res://UI/Tutorial/LanjutButton2.png" type="Texture" id=9]
+[ext_resource path="res://UI/Tutorial/PahamButton2.png" type="Texture" id=10]
+[ext_resource path="res://UI/Tutorial/LanjutButton1.png" type="Texture" id=11]
+[ext_resource path="res://UI/Tutorial/Gambar/gerak1.png" type="Texture" id=12]
+[ext_resource path="res://UI/Tutorial/Mittsies - Luminescent.mp3" type="AudioStream" id=13]
+[ext_resource path="res://UI/Tutorial/correct.mp3" type="AudioStream" id=14]
+[ext_resource path="res://Sound/Effect/quest_sound.mp3" type="AudioStream" id=15]
+
+[sub_resource type="DynamicFont" id=2]
+size = 14
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=1]
+size = 24
+outline_size = 1
+outline_color = Color( 0.262745, 0.956863, 0.168627, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="Theme" id=3]
+
+[sub_resource type="DynamicFont" id=4]
+size = 10
+font_data = ExtResource( 1 )
+
+[node name="Tutorial" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+tutorial_file = "res://UI/Tutorial/Text/Quest.txt"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_scale = Vector2( 0.25, 0.25 )
+texture = ExtResource( 3 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -69.0
+margin_top = -49.0
+margin_right = 72.0
+margin_bottom = 57.0
+
+[node name="ButtonPergerakan" type="Button" parent="VBoxContainer"]
+margin_right = 141.0
+margin_bottom = 18.0
+custom_fonts/font = SubResource( 2 )
+text = "Cara Pergerakan Karakter"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="ButtonPertarungan" type="Button" parent="VBoxContainer"]
+margin_top = 22.0
+margin_right = 141.0
+margin_bottom = 40.0
+custom_fonts/font = SubResource( 2 )
+text = "Cara Bertarung"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="ButtonInventory" type="Button" parent="VBoxContainer"]
+margin_top = 44.0
+margin_right = 141.0
+margin_bottom = 62.0
+custom_fonts/font = SubResource( 2 )
+text = "Cara menggunakan Inventory"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="ButtonQuest" type="Button" parent="VBoxContainer"]
+margin_top = 66.0
+margin_right = 141.0
+margin_bottom = 84.0
+custom_fonts/font = SubResource( 2 )
+text = "Cara Mengambil Quest"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="ButtonInteraksi" type="Button" parent="VBoxContainer"]
+margin_top = 88.0
+margin_right = 141.0
+margin_bottom = 106.0
+custom_fonts/font = SubResource( 2 )
+text = "Cara Berinteraksi"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Dim" type="ColorRect" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0.588235 )
+
+[node name="JudulLabel" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -159.0
+margin_right = 159.0
+margin_bottom = 19.0
+custom_fonts/font = SubResource( 1 )
+text = "Cara Bermain"
+align = 1
+autowrap = true
+
+[node name="MenuButton" type="TouchScreenButton" parent="."]
+position = Vector2( 282, 5 )
+normal = ExtResource( 5 )
+pressed = ExtResource( 4 )
+
+[node name="ConfirmButton" type="TouchScreenButton" parent="."]
+visible = false
+position = Vector2( 132, 157 )
+normal = ExtResource( 6 )
+pressed = ExtResource( 10 )
+
+[node name="NextButton" type="TouchScreenButton" parent="."]
+visible = false
+position = Vector2( 269, 90 )
+normal = ExtResource( 11 )
+pressed = ExtResource( 9 )
+
+[node name="BackButton" type="TouchScreenButton" parent="."]
+visible = false
+position = Vector2( 5, 90 )
+normal = ExtResource( 7 )
+pressed = ExtResource( 8 )
+
+[node name="TutorialImage" type="TextureRect" parent="."]
+visible = false
+margin_left = 83.0
+margin_top = 20.0
+margin_right = 1363.0
+margin_bottom = 740.0
+rect_scale = Vector2( 0.12, 0.12 )
+texture = ExtResource( 12 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+margin_left = 83.0
+margin_top = 106.0
+margin_right = 237.0
+margin_bottom = 153.0
+color = Color( 0.152941, 0.152941, 0.152941, 1 )
+
+[node name="TextTutorial" type="Label" parent="ColorRect"]
+margin_right = 154.0
+margin_bottom = 47.0
+theme = SubResource( 3 )
+custom_fonts/font = SubResource( 4 )
+text = "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
+align = 1
+autowrap = true
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 13 )
+volume_db = -10.0
+autoplay = true
+
+[node name="Sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 14 )
+
+[node name="Sound2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 15 )
+
+[connection signal="pressed" from="VBoxContainer/ButtonPergerakan" to="." method="_on_ButtonPergerakan_pressed"]
+[connection signal="pressed" from="VBoxContainer/ButtonPertarungan" to="." method="_on_ButtonPertarungan_pressed"]
+[connection signal="pressed" from="VBoxContainer/ButtonInventory" to="." method="_on_ButtonInventory_pressed"]
+[connection signal="pressed" from="VBoxContainer/ButtonQuest" to="." method="_on_ButtonQuest_pressed"]
+[connection signal="pressed" from="VBoxContainer/ButtonInteraksi" to="." method="_on_ButtonInteraksi_pressed"]
+[connection signal="pressed" from="MenuButton" to="." method="_on_MenuButton_pressed"]
+[connection signal="pressed" from="ConfirmButton" to="." method="_on_ConfirmButton_pressed"]
+[connection signal="pressed" from="NextButton" to="." method="_on_NextButton_pressed"]
+[connection signal="pressed" from="BackButton" to="." method="_on_BackButton_pressed"]

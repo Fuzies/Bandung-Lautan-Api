@@ -1,0 +1,6 @@
+[
+	{"text": "Pergerakan Kanan \n Kamu dapat bergerak ke kiri dengan menarik tombol analog ke arah kanan sehingga karakter akan bergerak ke kanan"},
+	{"text": "Pergerakan Kiri \n Kamu dapat bergerak ke kiri dengan menarik tombol analog ke arah kiri sehingga karakter akan bergerak ke kiri"},
+	{"text": "Pergerakan Atas \n Kamu dapat bergerak ke kiri dengan menarik tombol analog ke arah atas sehingga karakter akan bergerak ke atas"},
+	{"text": "Pergerakan Bawah \n Kamu dapat bergerak ke kiri dengan menarik tombol analog ke arah bawah sehingga karakter akan bergerak ke bawah"}
+]

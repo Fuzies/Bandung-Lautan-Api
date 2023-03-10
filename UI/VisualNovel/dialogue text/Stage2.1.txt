@@ -1,0 +1,11 @@
+[
+	{"name": "Tanggal,tempat", "text": "28 September 1945, Perkumpulan Djawatan Pemuda Kereta Api","pos" : 1},
+	{"name": "Ir. Djuanda", "text": "Kawan-kawan sekalian,kita telah mendapat kabar dari kawanku ini *menoleh ke arahmu*", "pos" : 1},
+	{"name": "Ir. Djuanda", "text": "Kini sudah saatnya kita seutuhnya merdeka!", "pos" : 1},
+	{"name": "Ir. Djuanda", "text": "Kemarin kantor PTT telah direbut dan sekarang kita akan merebut Balai Besar DKA", "pos" : 1},
+	{"name": "Djawatan Pemuda Kereta Api", "text": "Wah sudah saatnya kita bebas!", "pos" : 2},
+	{"name": "Ir. Djuanda", "text": "Jika tidak kita rebut sekarang Jepang akan memberikan pemerintahan ke Amerika", "pos" : 1},
+	{"name": "Ir. Djuanda", "text": "Sudah saatnya kita berjuang demi nasib kita!", "pos" : 1},
+	{"name": "Djawatan Pemuda Kereta Api", "text": "Ayo kita maju, Rebut kembali Indonesia!", "pos" : 2},
+	{"name": "Ir. Djuanda", "text": "Ayo kawan dibawah komandoku Maju!", "pos" : 1},
+]

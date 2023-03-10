@@ -1,0 +1,15 @@
+[
+	{"name": "Tanggal", "text": "27 September 1945, kurang dari 1 jam setelah perebutan dimulai","pos" : 1},
+	{"name": "Komandan Jepang", "text": "Arrghhh ampuni kami!.", "pos" : 2},
+	{"name": "Nawawi Alief", "text": "Setelah apa yang telah kalian lakukan pada kami para rakyat indonesia...", "pos" : 1},
+	{"name": "Nawawi Alief", "text": "Kalian tindas kami dengan kerja paksa dan sekarang ingin memberikan pemerintahan ke Amerika!?", "pos" : 1},
+	{"name": "Sutoko", "text": "Tidak akan kami biarkan!, cepat pergi dari Indonesia!", "pos" : 1},
+	{"name": "Komandan Jepang", "text": "Maaf! *pergi dari kantor PTT*", "pos" : 2},
+	{"name": "Nawawi Alief", "text": "Kita berhasil! bukan tidak mungkin untuk mengalahkan Jepang kita harus terus maju!", "pos" : 1},
+	{"name": "Sutoko", "text": "Ya! kita lanjutkan perjuangan demi rakyat Indonesia!", "pos" : 1},
+	{"name": "Nawawi Alief", "text": "Hei kamu, *menoleh ke arahmu* ya kamu, kamu adalah prajurit yang hebat rakyat membutuhkanmu!", "pos" : 1},
+	{"name": "Sutoko", "text": "Ya kamu sangat hebat bisa mengalahkannya!, maaf tapi kami tidak bisa memberikan apapun untuk saat ini", "pos" : 1},
+	{"name": "Nawawi Alief", "text": "Saya minta bantuan, demi rakyat indonesia tolong bantu para pemuda-pemuda Djawatan Kereta Api", "pos" : 1},
+	{"name": "Nawawi Alief", "text": "Besok mereka akan melakukan pengambilalihan Balai Besar DKA, saya harap kamu bisa ikut.", "pos" : 1},
+	{"name": "Kamu", "text": "Baik! *kamu pergi*", "pos" : 1},
+]

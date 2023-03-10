@@ -27,6 +27,7 @@ func item_picked(item_name):
 
 func access_ammo():
 	inventorySlotDisplay.find_ammo_items()
+
 func close_inventory():
 	bag_audio.stream = load("res://Sound/Effect/bag_close.mp3")
 	bag_audio.play()

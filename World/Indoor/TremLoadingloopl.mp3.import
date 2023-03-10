@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/TremLoadingloopl.mp3-18fbb5bef9a93710ab9fca9fd7e3df3b.mp3str"
+
+[deps]
+
+source_file="res://World/Indoor/TremLoadingloopl.mp3"
+dest_files=[ "res://.import/TremLoadingloopl.mp3-18fbb5bef9a93710ab9fca9fd7e3df3b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

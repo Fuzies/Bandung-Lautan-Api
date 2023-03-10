@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Mittsies - Luminescent.mp3-feea56cb607c7ef53cf0aa7f796eebca.mp3str"
+
+[deps]
+
+source_file="res://UI/Tutorial/Mittsies - Luminescent.mp3"
+dest_files=[ "res://.import/Mittsies - Luminescent.mp3-feea56cb607c7ef53cf0aa7f796eebca.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

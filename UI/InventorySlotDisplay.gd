@@ -11,6 +11,12 @@ onready var itemAmountLabel = $ItemTextureRect/ItemAmountLabel
 
 signal ammo_changed(ammo)
 
+func _ready():
+	var directory = Directory.new()
+	if directory.file_exists("res://savegame.tres"):
+		var saves = load("res://savegame.tres")
+		inventory.set_loaded_inventory(saves.inventoryRes)
+
 func display_item(item):
 	if item is Item:
 		itemTextureRect.texture = item.texture

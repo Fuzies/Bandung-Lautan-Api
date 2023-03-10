@@ -1,5 +1,5 @@
 [
 	{"name": "Sutoko", "text": "Para pemuda membutuhkan suplai makanan supaya kita dapat berjuang sepenuhnya!","pos" : 1},
 	{"name": "Sutoko", "text": "Tolong Bawakan 3 Pisang kepadaku dan aku akan memberikan sesuatu untukmu","pos" : 1},
-	{"name": "Player", "text": "Baiklah.","pos" : 2},
+	{"name": "Kamu", "text": "Baiklah.","pos" : 2},
 ]
